@@ -15,7 +15,7 @@ jobs:
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
         with:
-          python-version: 3.9.1
+          python-Ubuntu 22.04
       - name: Set timezone
         run: |
           cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
@@ -26,3 +26,4 @@ jobs:
       - name: weixin
         run: |
           python3 main.py
+
